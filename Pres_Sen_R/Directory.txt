@@ -1,0 +1,48 @@
+﻿※目录说明：此目录为单元阀项目目录。
+|
+|-components 标准组件源代码
+|     |-cpulibs CPU标准驱动库
+|     |   |
+|     |   |-CMSIS  ARM Cortex-M 标准组件
+|     |   |-STM32F10x_StdPeriph_Driver STM32F10x系列标准驱动库源代码
+|     |
+|     |-rtos 操作系统源代码
+|     |   |
+|     |   |-FreeRTOS 免费开源的嵌入式实时操作系统内核：http://www.freertos.org/
+|     |
+|     |-stdlibc C标准库头文件，方便查看函数声明
+|     |
+|     |-usrlibc 自定义常用标准库函数
+|     |
+|     |-utilities 实用组件
+|     |   |
+|     |   |-elog 日志打印输出
+|
+|-documents 工程相关文档(功能说明,通信协议等)
+|
+|
+|-projects  开发环境工程目录(基于此开发环境模板工程)
+|    |
+|    |-MDK-ARM(uV5) MDK ARM开发环境，软件版本为V5.x
+|
+|-sources 项目应用源代码
+|    |
+|    |-includes.h 项目公共头文件
+|    |-main.c 程序执行入口文件
+|    |-template.c/h 新增源码文件引用模板
+|    |
+|    |-app 应用层源代码
+|    |-app.c/h 主应用程序汇总文件
+|    |-app_cfg.h 应用程序配置文件
+|    |-app_hook.c 应用程序回调函数钩子文件
+|    |  |
+|    |  |-record 数据存储
+|    |  |-nb-iot NB-IoT驱动和网络状态机源码
+|    |
+|    |-bsp 硬件驱动层源代码
+|       |
+|       |-stm32f10x 外部硬件驱动源代码
+|
+|-tools 项目开发相关工具软件
+|
+|-si4.si4project  SourceInsight4 源代码编辑查看软件工程

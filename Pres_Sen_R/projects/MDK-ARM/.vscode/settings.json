@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "combus.h": "c",
+        "lcd.h": "c"
+    }
+}

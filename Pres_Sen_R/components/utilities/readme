@@ -1,0 +1,11 @@
+【elog】
+	超轻量级(ROM<1.6K, RAM<0.3K)、高性能的 C/C++ 日志库
+	网址：https://github.com/armink/EasyLogger
+	版本: 2.1.0
+	发布日期: 2017-10-02
+
+【finsh】
+	FinSH控制台(命令行调用的操作接口，主要用于调试或查看系统信息)
+	网址：https://www.rt-thread.org/document/site/programming-manual/finsh/finsh/
+	版本: First Version
+	发布日期: 2010-03-22
